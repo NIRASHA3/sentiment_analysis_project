@@ -14,7 +14,6 @@ Build an end-to-end sentiment analysis system that:
 1. Trains and evaluates multiple machine learning models.
 2. Selects a robust model based on evaluation metrics.
 3. Exposes prediction through a Flask web application.
-4. Prepares the app for cloud deployment (Azure).
 
 ## End-to-End Workflow
 
@@ -88,10 +87,6 @@ A Flask-based web app is built to:
 1. Accept user review text.
 2. Predict and display sentiment.
 3. Show sentiment counters and recent review history.
-
-### 11. Deploy to Azure
-
-The final application is containerized or packaged and deployed to Azure App Service (or an equivalent Azure hosting workflow), enabling online inference.
 
 ## Tech Stack
 
