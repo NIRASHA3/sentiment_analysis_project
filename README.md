@@ -80,6 +80,8 @@ The prediction pipeline includes:
 3. Vectorization with saved vocabulary/vectorizer.
 4. Final sentiment prediction using the selected model.
 
+**Model Selection:** Logistic Regression was chosen as the final production model because it demonstrated the best validation performance and stable generalization across test data. While algorithms like Random Forest and SVM showed competitive training accuracy, they exhibited signs of overfitting. Logistic Regression offers a robust balance between accuracy and generalization, making it ideal for real-world sentiment prediction.
+
 ### 10. Build Web Application
 
 A Flask-based web app is built to:
